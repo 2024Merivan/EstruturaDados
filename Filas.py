@@ -67,5 +67,20 @@ q.dequeue ()
 q.is_empty ()
 
 # Preciso aprender como fazer o teste por meio de inserção de células ou não conseguirei testar a fila
-# como faço para inserir células no Python?
-# Simples(basta criar um código com extensão ipynb)
+# como faço para inserir células no Python? Simples (basta criar um código com extensão ipynb)
+
+# Segundo teste de fila (deixando de acordo ao teste no GitHub do professor)
+fila = Queue
+
+print(fila.is_empty ())
+
+fila.enqueue (1)
+print (fila.peek ())
+
+fila.dequeue ()
+fila.enqueue (2)
+fila.enqueue (3)
+
+fila.display_queue ()
+
+# Agora eu vou testar no Filas1
